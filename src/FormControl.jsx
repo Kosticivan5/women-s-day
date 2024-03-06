@@ -3,16 +3,6 @@ import Item from "./Item";
 import { data } from "./data";
 
 const FormControl = () => {
-  // const person = [
-  //   "Мадина гаджамурадова",
-  //   "коротина екатерина",
-  //   "краскина екатерина",
-  //   "галкина таня",
-  //   "санчес надя",
-  //   "дозорова екатерина",
-  //   "вера серебракова",
-  // ];
-
   const [list, setList] = useState(data);
   const [value, setValue] = useState("");
 
